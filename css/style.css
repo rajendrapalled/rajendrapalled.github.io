@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+   /* background-color: azure;*/
+    background-image: url(https://images.unsplash.com/photo-1544914379-806667cd9489?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+    background-position: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+header {
+    background-image:
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    text-align: Center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: Center;
+}
+
+nav {
+    background-color: paleturquoise;
+    margin: 0;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: blue;
+
+}
+
+#logo {
+    width: 260px;
+    height: 150px;
+    
+}
+
+.welcome img {
+    float: left;
+
+
+}
+
+.welcome h1 {
+    position: relative;
+
+}
+
+#gallery img {
+     border-image-width: 10px;
+
+}
+
+.blinking {
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: yellow;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: yellow;    }
+}
+
+td, th {
+    border: 3px outset green;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #333;
+  }
+
+  .mapouter{
+      position:relative;
+      border:solid black 3px;
+      text-align:right;
+      height:300px;
+      width:400px;
+      float: left;
+    
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:300px;
+        width:400px;
+    }
+
+    .teams {
+        height: 200px;
+        width: 500px;
+        margin: 0 auto;
+       
+    }
+
+    .oath {
+        float: right;
+        width: 500px;
+        border: skyblue 5px solid;
+        margin-right: 50px;
+        margin-block-start: -200px;
+    }
